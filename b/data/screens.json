@@ -1,0 +1,32 @@
+[
+  {
+    "screenID": "b68ea474-499f-4d81-a1ba-b63999cecdfb",
+    "storyText": "You steady your breath. The hangar bay humming with distant engines sharpens into focus. Systems whisper status updates along your HUD as the ship drifts. Ahead, a decision waits.",
+    "portraitURL": "https://picsum.photos/seed/1177703755/540/960",
+    "landscapeURL": "https://picsum.photos/seed/1177703754/960/540",
+    "userChoices": "[\"Route power to scanners\",\"Call the bridge\",\"Slip into the maintenance shaft\"]",
+    "createdAt": "2025-09-01T17:56:31.409Z",
+    "parentID": null,
+    "genre": "Space Opera"
+  },
+  {
+    "screenID": "6a63c94e-7886-40fd-93b9-27c9edad434b",
+    "storyText": "You steady your breath. The command deck awash in holograms sharpens into focus. Systems whisper status updates along your HUD as the ship drifts. Ahead, a decision waits.",
+    "portraitURL": "https://picsum.photos/seed/269920568/540/960",
+    "landscapeURL": "https://picsum.photos/seed/269920567/960/540",
+    "userChoices": "[\"Route power to scanners\",\"Call the bridge\",\"Slip into the maintenance shaft\"]",
+    "createdAt": "2025-09-01T17:56:39.624Z",
+    "parentID": null,
+    "genre": "Military Sci-Fi"
+  },
+  {
+    "screenID": "fb8e86f5-4ba6-4332-903f-2f9435adb47a",
+    "storyText": "You steady your breath. The observation dome above a storm-wracked gas giant sharpens into focus. Systems whisper status updates along your HUD as the ship drifts. Ahead, a decision waits.",
+    "portraitURL": "https://picsum.photos/seed/276584099/540/960",
+    "landscapeURL": "https://picsum.photos/seed/276584098/960/540",
+    "userChoices": "[\"Route power to scanners\",\"Call the bridge\",\"Slip into the maintenance shaft\"]",
+    "createdAt": "2025-09-01T17:56:39.630Z",
+    "parentID": "6a63c94e-7886-40fd-93b9-27c9edad434b",
+    "genre": "Military Sci-Fi"
+  }
+]

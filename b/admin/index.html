@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin • AstraPaths</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      .grid { display:grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+      .field { display:flex; flex-direction:column; gap:6px; margin-bottom:12px; }
+      input, textarea, select { padding:10px 12px; border-radius:10px; border:1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.04); color: inherit; }
+      label { font-size: 0.92rem; color: var(--muted); }
+      table { width:100%; border-collapse: collapse; }
+      th, td { text-align:left; padding:8px 6px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+      .row { display:flex; gap: 12px; align-items: center; }
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <header class="topbar">
+      <div class="brand">AstraPaths Admin</div>
+      <a class="ghost" href="/" title="Back to app">↩ Back</a>
+    </header>
+    <main class="container">
+      <section class="card enter">
+        <h2>Global Parameters</h2>
+        <div class="grid">
+          <div>
+            <div class="field"><label>Model</label><input id="param_MODEL_ID" placeholder="gemini-1.5-flash"></div>
+            <div class="field"><label>Temperature</label><input id="param_TEMPERATURE" type="number" step="0.1" min="0" max="2" /></div>
+            <div class="field"><label>Max Tokens</label><input id="param_MAX_TOKENS" type="number" /></div>
+          </div>
+          <div>
+            <div class="field"><label>Mock Mode</label><select id="param_MOCK_MODE"><option>true</option><option>false</option></select></div>
+            <div class="field"><label>Theme</label><select id="param_THEME"><option>system</option><option>light</option><option>dark</option></select></div>
+            <div class="field"><label>Image Aspect</label><select id="param_IMAGE_ASPECT"><option>landscape</option><option>portrait</option></select></div>
+          </div>
+        </div>
+        <div class="tray"><button id="saveParams" class="ghost">Save</button></div>
+      </section>
+
+      <section class="card enter" style="margin-top: 16px;">
+        <h2>Prompts</h2>
+        <table id="promptsTable"><thead><tr><th>Name</th><th>Type</th><th>Updated</th><th></th></tr></thead><tbody></tbody></table>
+        <div class="tray"><button id="addPrompt" class="ghost">Add Prompt</button></div>
+      </section>
+    </main>
+    <script src="/admin/admin.js" type="module"></script>
+  </body>
+  </html>
+

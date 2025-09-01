@@ -1,0 +1,30 @@
+[
+  {
+    "id": "style-meta",
+    "name": "Narrative Style",
+    "type": "meta",
+    "content": "Write immersive second-person sci-fi with crisp pacing, vivid sensory detail, and tight scene framing. Keep paragraphs short and choices concrete. Avoid overly florid prose.",
+    "updatedAt": "2025-09-01T17:47:17.575Z"
+  },
+  {
+    "id": "initial-template",
+    "name": "Initial Screen Template",
+    "type": "template",
+    "content": "Genre: {{genre}}. Begin an engaging scene that ends with 2-3 actionable choices for the reader.",
+    "updatedAt": "2025-09-01T17:47:17.575Z"
+  },
+  {
+    "id": "continuation-template",
+    "name": "Continuation Template",
+    "type": "template",
+    "content": "Continue the story. Prior text: \"{{parentText}}\". The reader chose: \"{{choice}}\". Advance the scene with consequence and end with 2-3 new choices.",
+    "updatedAt": "2025-09-01T17:47:17.575Z"
+  },
+  {
+    "id": "image-template",
+    "name": "Image Prompt Template",
+    "type": "template",
+    "content": "Cinematic sci-fi concept art of the current scene: {{summary}}. Futuristic, high detail, moody lighting.",
+    "updatedAt": "2025-09-01T17:47:17.575Z"
+  }
+]
