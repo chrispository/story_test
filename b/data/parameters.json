@@ -1,8 +1,0 @@
-{
-  "MODEL_ID": "gemini-1.5-flash",
-  "TEMPERATURE": "0.8",
-  "MAX_TOKENS": "600",
-  "MOCK_MODE": "true",
-  "THEME": "system",
-  "IMAGE_ASPECT": "landscape"
-}
